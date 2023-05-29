@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fibonacci.Calculator", "Fibonacci.Calculator\Fibonacci.Calculator.csproj", "{FB4B410D-58C6-481A-BFA5-54017B837C81}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fibonacci.Calculator.Domain", "Fibonacci.Calculator.Domain\Fibonacci.Calculator.Domain.csproj", "{AA096568-6BB2-414B-B414-F3138EDFC210}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fibonacci.Calculator.Infrastructure", "Fibonacci.Calculator.Infrastructure\Fibonacci.Calculator.Infrastructure.csproj", "{9ACF6E42-CB93-4B7E-AEF2-6A4314F406CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8FE9B303-D8CF-4A08-9B58-F417CCDF80FA}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB4B410D-58C6-481A-BFA5-54017B837C81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB4B410D-58C6-481A-BFA5-54017B837C81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB4B410D-58C6-481A-BFA5-54017B837C81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB4B410D-58C6-481A-BFA5-54017B837C81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA096568-6BB2-414B-B414-F3138EDFC210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA096568-6BB2-414B-B414-F3138EDFC210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA096568-6BB2-414B-B414-F3138EDFC210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA096568-6BB2-414B-B414-F3138EDFC210}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ACF6E42-CB93-4B7E-AEF2-6A4314F406CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ACF6E42-CB93-4B7E-AEF2-6A4314F406CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ACF6E42-CB93-4B7E-AEF2-6A4314F406CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ACF6E42-CB93-4B7E-AEF2-6A4314F406CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9DE0FE0-A945-41CB-8440-791F79A14C7C}
+	EndGlobalSection
+EndGlobal
